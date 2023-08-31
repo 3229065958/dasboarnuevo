@@ -72,7 +72,7 @@
           <div class="dropdown-divider"></div>
           <a href="profile.html" class="dropdown-item dropdown-footer"> tu perfil</a>
           <a href="contraseña.html" class="dropdown-item dropdown-footer"> cambiar contraseña</a>
-          <a href="#" class="dropdown-item dropdown-footer">informe por filtro</a>
+          <a href="index.html" class="dropdown-item dropdown-footer">Salir</a>
         </div>
       </li>
      
@@ -142,10 +142,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">
-                  <i class="nav-icon fas fa-th"></i>
-                  <p>
+             
       <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
@@ -177,10 +174,11 @@
     </section>
 
     <!-- Main content -->
-    <section class="content">
-      <div class="container">
+     <!-- Main content -->
+     <section class="content">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-3">
 
             <!-- Profile Image -->
             <div class="card card-primary card-outline">
@@ -195,23 +193,67 @@
 
                 <p class="text-muted text-center">Software Engineer</p>
 
-                <ul class="list-group list-group-unbordered mb-3">
-                  <li class="list-group-item">
-                    <b>seguidores</b> <a class="float-right">1,322</a>
+                <ul class="list-group list-group-unbordered mb-3 text">
+                  <li class="list-group-item text-center">
+                    <b>cdmanrique58@soy.sena.edu.co</b>
                   </li>
-                  <li class="list-group-item">
-                    <b>sigiendo</b> <a class="float-right">543</a>
+                  <li class="list-group-item text-center">
+                    <b>3222974590</b>
                   </li>
-                  <li class="list-group-item">
-                    <b>amigos</b> <a class="float-right">13,287</a>
+                  <li class="list-group-item text-center">
+                    <img src="../img/bloquear.png" alt="" style="width: 5%;"> <a href="../pages/cambicontraseña.html">Cambiar Contraseña</a>
                   </li>
                 </ul>
 
-                <a href="#" class="btn btn-primary btn-block"><b>seguir</b></a>
+                <a href="index.html" class="btn btn-primary btn-block"><b>Iniciar Sesión con otra cuenta</b></a>
+                <a href="index.html" class="btn btn-primary btn-block"><b>Cerrar sesion</b></a>
               </div>
               <!-- /.card-body -->
             </div>
             <!-- /.card -->
+
+            
+          </div>
+          <!-- /.col -->
+          <div class="col-md-9">
+            <div class="card">
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="active tab-pane" id="activity">
+                    <!-- Post -->
+                    <form>
+                      <div class="card-body">
+                        <div class="form-group">
+                          <label for="exampleInputTextl1">Nombres</label>
+                          <input type="text" class="form-control" id="exampleInputText1" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Contraseña</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Correo Electronico</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo Electronico">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputNumber1">Contraseña</label>
+                          <input type="number" class="form-control" id="exampleInputNumber1" placeholder="Telefono">
+                        </div>
+                        
+                      </div>
+                      <!-- /.card-body -->
+      
+                      <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Actualizar</button>
+                      </div>
+                    </form>
+                    <!-- /.post -->
+
+                   
+                    <!-- /.post -->
+                  </div>
+                  <!-- /.tab-pane -->
+                  
 
            
           <!-- /.col -->
